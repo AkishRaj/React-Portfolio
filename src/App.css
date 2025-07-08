@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Cherry+Swash");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.navbar, section {
+  max-width: 100vw;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#project {
+  background-color: #0c0a0a;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.4rem 2rem;
+  background: var(--main-color);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background: #676252;
+  letter-spacing: 0.1rem;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-animate {
+  animation: fadeSlideUp 1s ease-out forwards;
+  opacity: 0;
+}
