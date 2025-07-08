@@ -131,7 +131,7 @@ function App() {
           Created by{" "}
           <a
             href="https://www.instagram.com/akish_raj/"
-            className="text-white fw-bold"
+            className="text-white fw-bold" 
           >
             Akish Raj
           </a>
